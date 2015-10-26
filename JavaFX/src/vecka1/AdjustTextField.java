@@ -30,9 +30,10 @@ public class AdjustTextField extends Application {
 		Label textfi = new Label ("Text Field: ");
 		TextField tx = new TextField();
 		TextField cb = new TextField();
-		
-	
-		
+		cb.setOnAction(event -> {
+			float f = Float.parseFloat(cb.getText());
+			tx.resize(f, f); // check correction
+		});
 		ToggleGroup tg = new ToggleGroup();
 		left.setToggleGroup(tg);
 		left.setOnAction(event->{
