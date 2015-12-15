@@ -1,0 +1,4 @@
+.button{-fx-underline:true;-fx-border-color:#00ff00}
+.root{-fx-rotate:360;-fx-border-color:purple;-fx-border-width:100}
+.stage{-fx-rotate:45}
+#kuk{-fx-border-color:black;-fx-underline:false;-fx-rotate:180}
